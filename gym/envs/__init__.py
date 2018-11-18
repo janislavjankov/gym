@@ -65,8 +65,8 @@ register(
 )
 
 register(
-    id='CartPoleNoop-v0',
-    entry_point='gym.envs.classic_control:CartPoleNoopEnv',
+    id='CartPoleTwoButtons-v0',
+    entry_point='gym.envs.classic_control:CartPoleTwoButtonsEnv',
     max_episode_steps=200,
     reward_threshold=195.0,
 )
